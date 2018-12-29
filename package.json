@@ -1,0 +1,25 @@
+{
+  "name": "productdetails",
+  "version": "1.0.0",
+  "description": "product software backend api",
+  "main": "server.js",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.6",
+    "mongoose": "^5.2.15",
+    "mongoose-sequence": "^4.0.1"
+  },
+  "engines": {
+    "node": "8.11.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
