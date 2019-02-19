@@ -59,6 +59,8 @@ app.get('/', (req, res) => {
 require('./app/routes/product.routes.js')(app);
 require('./app/routes/shop.routes.js')(app);
 require('./app/routes/order.routes.js')(app);
+require('./app/routes/item.routes.js')(app);
+
 require('./app/routes/user.routes.js')(app);
 require('./app/routes/provider.routes.js')(app);
 require('./app/routes/admin.routes.js')(app);
